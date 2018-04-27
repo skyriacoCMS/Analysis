@@ -1,4 +1,4 @@
-**.root 
-**.log
-**.out
-**.err
+**/*.root 
+**/*.log
+**/*.out
+**/*.err
