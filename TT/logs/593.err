@@ -1,0 +1,137 @@
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo for version 1 of class TObject read from the file /cms/kyriacou/NtuplesJan18/TT/top.root
+   has a different checksum than the previously loaded StreamerInfo.
+   Reading objects of type TObject from the file /cms/kyriacou/NtuplesJan18/TT/top.root 
+   (and potentially other files) might not work correctly.
+   Most likely the version number of the class was not properly
+   updated [See ClassDef(TObject,1)].
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TObject' differs from 
+the in-memory layout version 1:
+   unsigned int fUniqueID; //
+vs
+   UInt_t fUniqueID; //
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TObject' differs from 
+the in-memory layout version 1:
+   unsigned int fBits; //
+vs
+   UInt_t fBits; //
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class TCollection read from file /cms/kyriacou/NtuplesJan18/TT/top.root
+   has the same version (=3) as the active class but a different checksum.
+   You should update the version to ClassDef(TCollection,4).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 3 of class 'TCollection' differs from 
+the in-memory layout version 3:
+   int fSize; //
+vs
+   Int_t fSize; //
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class TAttMarker read from file /cms/kyriacou/NtuplesJan18/TT/top.root
+   has the same version (=2) as the active class but a different checksum.
+   You should update the version to ClassDef(TAttMarker,3).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 2 of class 'TAttMarker' differs from 
+the in-memory layout version 2:
+   short fMarkerColor; //
+vs
+   Color_t fMarkerColor; //
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 2 of class 'TAttMarker' differs from 
+the in-memory layout version 2:
+   short fMarkerStyle; //
+vs
+   Style_t fMarkerStyle; //
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 2 of class 'TAttMarker' differs from 
+the in-memory layout version 2:
+   float fMarkerSize; //
+vs
+   Size_t fMarkerSize; //
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class TLeafF read from file /cms/kyriacou/NtuplesJan18/TT/top.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(TLeafF,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TLeafF' differs from 
+the in-memory layout version 1:
+   float fMinimum; //
+vs
+   Float_t fMinimum; //
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TLeafF' differs from 
+the in-memory layout version 1:
+   float fMaximum; //
+vs
+   Float_t fMaximum; //
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class TLeafI read from file /cms/kyriacou/NtuplesJan18/TT/top.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(TLeafI,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TLeafI' differs from 
+the in-memory layout version 1:
+   int fMinimum; //
+vs
+   Int_t fMinimum; //
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TLeafI' differs from 
+the in-memory layout version 1:
+   int fMaximum; //
+vs
+   Int_t fMaximum; //
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class TArrayD read from file /cms/kyriacou/NtuplesJan18/TT/top.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(TArrayD,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TArrayD' differs from 
+the in-memory layout version 1:
+   double* fArray; //fN
+vs
+   Double_t* fArray; //fN
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class TArray read from file /cms/kyriacou/NtuplesJan18/TT/top.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(TArray,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TArray' differs from 
+the in-memory layout version 1:
+   int fN; //
+vs
+   Int_t fN; //
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class TArrayI read from file /cms/kyriacou/NtuplesJan18/TT/top.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(TArrayI,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'TArrayI' differs from 
+the in-memory layout version 1:
+   int* fArray; //fN
+vs
+   Int_t* fArray; //fN
+Error: Symbol xsectt is not defined in current scope  CUTS.C:704:
+Error: Symbol ntott is not defined in current scope  CUTS.C:704:
+*** Interpreter error recovered ***

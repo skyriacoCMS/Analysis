@@ -1,0 +1,24 @@
+#!/bin/bash
+
+export SCRAM_ARCH="slc6_amd64_gcc462"
+export VO_CMS_SW_DIR="/cms/base/cmssoft"
+export COIN_FULL_INDIRECT_RENDERING=1
+source /cms/base/cmssoft/cmsset_default.sh 
+
+#------------------------------------------
+
+Main_Dir=/cms/kyriacou/Stealth_18/CMSSW_7_0_0/src/TT
+export MYSCRIPT=/cms/kyriacou/Stealth_18/CMSSW_7_0_0/src/TT/Cuts.py
+
+cd $Main_Dir
+
+eval `scram runtime -sh`
+echo "SCRAM_ARCH " $SCRAM_ARCH
+pwd
+
+
+python Cuts.py $1
+
+
+
+
